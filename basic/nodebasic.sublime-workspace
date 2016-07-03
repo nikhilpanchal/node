@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"ti",
+				"title	Tag"
+			],
+			[
+				"writ",
+				"writeStream"
+			],
+			[
+				"event",
+				"eventEmitter"
+			],
+			[
 				"create",
 				"createClass"
 			],
@@ -172,10 +192,34 @@
 	"buffers":
 	[
 		{
-			"file": "README.md",
+			"file": "express.js",
 			"settings":
 			{
-				"buffer_size": 8,
+				"buffer_size": 911,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server.js",
+			"settings":
+			{
+				"buffer_size": 662,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.htm",
+			"settings":
+			{
+				"buffer_size": 374,
 				"line_ending": "Unix"
 			}
 		}
@@ -274,10 +318,24 @@
 	"expanded_folders":
 	[
 		"/Users/nikhilpanchal/code/node",
-		"/Users/nikhilpanchal/code/node/basic"
+		"/Users/nikhilpanchal/code/node/basic",
+		"/Users/nikhilpanchal/code/node/basic/public",
+		"/Users/nikhilpanchal/code/node/basic/public/images"
 	],
 	"file_history":
 	[
+		"/Users/nikhilpanchal/code/node/basic/server.js",
+		"/Users/nikhilpanchal/code/node/basic/index.html",
+		"/Users/nikhilpanchal/code/node/basic/client.js",
+		"/Users/nikhilpanchal/code/node/basic/events.js",
+		"/Users/nikhilpanchal/code/node/basic/streams.js",
+		"/Users/nikhilpanchal/code/node/basic/fileread.js",
+		"/Users/nikhilpanchal/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/nikhilpanchal/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/Users/nikhilpanchal/code/node/basic/http.js",
+		"/Users/nikhilpanchal/code/node/basic/randomtext.txt",
+		"/Users/nikhilpanchal/Library/Application Support/Sublime Text 3/Packages/User/node.sublime-build",
+		"/Users/nikhilpanchal/code/node/basic/README.md",
 		"/Users/nikhilpanchal/code/Front-end/React/Initial-Prototype/index.html",
 		"/Users/nikhilpanchal/mystuff/React/js/sample.js",
 		"/Users/nikhilpanchal/mystuff/React/index.html",
@@ -330,6 +388,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Error",
 			"my_movie"
 		],
 		"highlight": true,
@@ -348,16 +407,46 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
+					"file": "express.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8,
+						"buffer_size": 911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								636,
+								636
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "server.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 662,
 						"regions":
 						{
 						},
@@ -370,7 +459,67 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -421,7 +570,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"pinned_build_system": "Packages/User/node.sublime-build",
 	"project": "nodebasic.sublime-project",
 	"replace":
 	{

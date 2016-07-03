@@ -1,0 +1,1 @@
+This is some random text that I am going to use to create a text file that I will then use later to run via node's file reading api function. It will be interesting to use this as a test of node's non-blocking interface where the file will be read asynchronously and a callback will be fired on completion of the read operation. 
