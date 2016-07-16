@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"print",
+				"printTree〔function〕"
+			],
+			[
 				"w",
 				"workprocess"
 			],
@@ -216,19 +220,10 @@
 	"buffers":
 	[
 		{
-			"file": "server.js",
+			"file": "traverseBST.js",
 			"settings":
 			{
-				"buffer_size": 2520,
-				"line_ending": "Unix",
-				"name": "var app = require('express')();"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 142,
+				"buffer_size": 1267,
 				"line_ending": "Unix"
 			}
 		}
@@ -256,8 +251,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 87.0,
-		"last_filter": "package install",
+		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -305,7 +300,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 467.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -326,7 +321,12 @@
 	},
 	"file_history":
 	[
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/App.js",
+		"/Users/nikhilpanchal/Documents/nodejsreader.js",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/AppMixins.js",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/package.json",
 		"/Users/nikhilpanchal/code/node/sampleREST/package.json",
+		"/Users/nikhilpanchal/code/node/sampleREST/server.js",
 		"/Users/nikhilpanchal/code/node/basic/index.htm",
 		"/Users/nikhilpanchal/code/node/basic/index.html",
 		"/Users/nikhilpanchal/code/Front-end/ES6/basics/Es6Basics/src/js/promises.js",
@@ -423,60 +423,31 @@
 			[
 				{
 					"buffer": 0,
-					"file": "server.js",
+					"file": "traverseBST.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2520,
+						"buffer_size": 1267,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								156,
+								156
 							]
 						],
 						"settings":
 						{
-							"auto_name": "var app = require('express')();",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 589.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -522,7 +493,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "Packages/User/node.sublime-build",
-	"project": "samplerest.sublime-project",
+	"project": "binarysearchtree.sublime-project",
 	"replace":
 	{
 		"height": 46.0
