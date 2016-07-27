@@ -1,10 +1,7 @@
 'use strict';
 
-var mongoose = require('mongoose');
-var schema = mongoose.Schema;
+function Bear(name) {
+	this.name = name;
+};
 
-var BearSchema = new schema({
-	name: String
-});
-
-module.exports = mongoose.model("Bear", BearSchema);
+module.exports = Bear;

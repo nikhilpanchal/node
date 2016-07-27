@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"lo",
+				"loadNpmTasks"
+			],
+			[
+				"tod",
+				"todoApp"
+			],
+			[
+				"to",
+				"toggleTodo"
+			],
+			[
+				"map",
+				"mapStateToProps〔function〕"
+			],
+			[
+				"set",
+				"setVisibilityFilter"
+			],
+			[
+				"F",
+				"FilterLink"
+			],
+			[
+				"Pro",
+				"PropTypes"
+			],
+			[
+				"su",
+				"sumTwo"
+			],
+			[
+				"add",
+				"additionTwo"
+			],
+			[
+				"ButtonM",
+				"ButtonMixin"
+			],
+			[
+				"cons",
+				"constructor"
+			],
+			[
+				"La",
+				"Label"
+			],
+			[
+				"b",
+				"button"
+			],
+			[
+				"Rea",
+				"React.Component"
+			],
+			[
+				"Reac",
+				"ReactDOM"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"me",
+				"meta	Tag"
+			],
+			[
 				"w",
 				"workprocess"
 			],
@@ -216,37 +288,34 @@
 	"buffers":
 	[
 		{
-			"file": "restexpress.js",
+			"file": "js/app.js",
 			"settings":
 			{
-				"buffer_size": 1188,
+				"buffer_size": 688,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "master.js",
+			"file": "partials/charts-ptl.html",
 			"settings":
 			{
-				"buffer_size": 619,
+				"buffer_size": 370,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "'use strict';\n\nvar str = \"Reverse\",\n	newStr = [];\n\nfor(let i=str.length-1; i>=0; i--) {\n	newStr.push(str[i]);\n}\n\nconsole.log(newStr.join(''))\n",
-			"file": "support.js",
-			"file_size": 141,
-			"file_write_time": 131140407020000000,
+			"file": "js/controllers/option-ctrl.js",
 			"settings":
 			{
-				"buffer_size": 142,
+				"buffer_size": 1011,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "server.js",
+			"file": "js/components/optionpayoffchart/calculators/payoff-calc-svc.js",
 			"settings":
 			{
-				"buffer_size": 662,
+				"buffer_size": 1438,
 				"line_ending": "Unix"
 			}
 		},
@@ -254,15 +323,31 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 373,
+				"buffer_size": 3256,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.htm",
+			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 375,
+				"buffer_size": 1228,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/components/optionpayoffchart/calculators/long-call-calc-svc.js",
+			"settings":
+			{
+				"buffer_size": 621,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 494,
 				"line_ending": "Unix"
 			}
 		}
@@ -290,8 +375,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 87.0,
-		"last_filter": "package install",
+		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -339,7 +424,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 467.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -360,19 +445,64 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/nikhilpanchal/code/node",
-		"/Users/nikhilpanchal/code/node/basic",
-		"/Users/nikhilpanchal/code/node/basic/public",
-		"/Users/nikhilpanchal/code/node/basic/public/data",
-		"/Users/nikhilpanchal/code/node/basic/public/images"
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts",
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/css",
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/js",
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/js/components",
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/js/components/optionleg",
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/js/components/optionpayoffchart",
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/js/components/optionpayoffchart/calculators",
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/js/controllers",
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/js/model"
 	],
 	"file_history":
 	[
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/js/model/option.js",
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/js/components/optionpayoffchart/calculators/Gruntfile.js",
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/runserver.sh",
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/README.md",
+		"/Users/nikhilpanchal/code/mystuff/options/payoffcharts/jscharts/js/components/optionpayoffchart/calculators/runserver.sh",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/index.html",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/components/TodoList.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/containers/AddTodo.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/containers/VisibleTodoList.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/containers/FilterLink.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/containers/README.md",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/components/App.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/components/Footer.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/components/Link.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/components/Todo.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/reducers.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/actions.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/main.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/moduletest.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/webpack.config.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/App.js",
+		"/Users/nikhilpanchal/code/Front-end/React/redux/package.json",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/main.js",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/AppDynamic.js",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/package.json",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/index.html",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/webpack.config.js",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/AppLifecycle.js",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/AppMixins.js",
+		"/Users/nikhilpanchal/code/Front-end/ES6/basics/Es6Basics/src/js/let.js",
+		"/Users/nikhilpanchal/code/Front-end/ES6/basics/Es6Basics/src/js/app.js",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/AppRefs.js",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/AppOwnerOwnee.js",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/AppState.js",
+		"/Users/nikhilpanchal/code/Front-end/React/egghead-fundamentals/App.js",
+		"/Users/nikhilpanchal/code/node/sampleREST/package.json",
+		"/Users/nikhilpanchal/code/node/sampleREST/server.js",
+		"/Users/nikhilpanchal/code/node/basic/index.htm",
+		"/Users/nikhilpanchal/code/node/basic/index.html",
 		"/Users/nikhilpanchal/code/Front-end/ES6/basics/Es6Basics/src/js/promises.js",
+		"/Users/nikhilpanchal/code/node/basic/support.js",
+		"/Users/nikhilpanchal/code/node/basic/master.js",
+		"/Users/nikhilpanchal/code/node/basic/restexpress.js",
 		"/Users/nikhilpanchal/code/node/basic/express.js",
 		"/Users/nikhilpanchal/code/node/basic/public/data/users.json",
 		"/Users/nikhilpanchal/code/node/basic/server.js",
-		"/Users/nikhilpanchal/code/node/basic/index.html",
 		"/Users/nikhilpanchal/code/node/basic/client.js",
 		"/Users/nikhilpanchal/code/node/basic/events.js",
 		"/Users/nikhilpanchal/code/node/basic/streams.js",
@@ -421,7 +551,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -435,6 +565,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"home",
+			"function",
+			"export",
+			"sumTwo",
+			"sumThree",
+			"sumTwo",
+			"	)",
 			"');\n",
 			"Error",
 			"my_movie"
@@ -455,46 +592,194 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "restexpress.js",
+					"file": "js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1188,
+						"buffer_size": 688,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1016,
-								1016
+								613,
+								613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "partials/charts-ptl.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/controllers/option-ctrl.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								498,
+								498
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 300.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "master.js",
+					"buffer": 3,
+					"file": "js/components/optionpayoffchart/calculators/payoff-calc-svc.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 619,
+						"buffer_size": 1438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1292,
+								1292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 71.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 302.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1085,
+								1085
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/components/optionpayoffchart/calculators/long-call-calc-svc.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 621,
 						"regions":
 						{
 						},
@@ -509,7 +794,8 @@
 						{
 							"auto_complete": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -519,42 +805,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "support.js",
+					"buffer": 7,
+					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								142,
-								142
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_name": "",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "server.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 662,
+						"buffer_size": 494,
 						"regions":
 						{
 						},
@@ -567,74 +823,16 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"auto_complete": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 373,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								373,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "index.htm",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 375,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								375,
-								375
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -680,7 +878,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "Packages/User/node.sublime-build",
-	"project": "nodebasic.sublime-project",
+	"project": "options.sublime-project",
 	"replace":
 	{
 		"height": 46.0
@@ -721,7 +919,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 186.0,
+	"side_bar_width": 232.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

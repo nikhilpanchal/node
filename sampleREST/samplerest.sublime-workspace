@@ -219,16 +219,7 @@
 			"file": "server.js",
 			"settings":
 			{
-				"buffer_size": 2520,
-				"line_ending": "Unix",
-				"name": "var app = require('express')();"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 142,
+				"buffer_size": 1908,
 				"line_ending": "Unix"
 			}
 		}
@@ -324,8 +315,16 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/nikhilpanchal/code/node/sampleREST",
+		"/Users/nikhilpanchal/code/node/sampleREST/models",
+		"/Users/nikhilpanchal/code/node/sampleREST/web"
+	],
 	"file_history":
 	[
+		"/Users/nikhilpanchal/code/node/sampleREST/models/bear.js",
+		"/Users/nikhilpanchal/code/node/sampleREST/web/index.html",
 		"/Users/nikhilpanchal/code/node/sampleREST/package.json",
 		"/Users/nikhilpanchal/code/node/basic/index.htm",
 		"/Users/nikhilpanchal/code/node/basic/index.html",
@@ -427,20 +426,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2520,
+						"buffer_size": 1908,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1717,
+								1717
 							]
 						],
 						"settings":
 						{
-							"auto_name": "var app = require('express')();",
+							"auto_complete": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -449,34 +448,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]

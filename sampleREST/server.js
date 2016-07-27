@@ -3,15 +3,11 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
 var Bear = require('./models/bear');
 
 // Mount the body parser functionality at the root of the app
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-// Connect to the database server
-// mongoose.connect('mongodb://node:node@novus.modulusmongo.net:27017/Iganiq8o');
 
 // Set our listener port
 var port = process.env.PORT || 8080;
@@ -33,46 +29,21 @@ router.route("/bears")
 		let bear = new Bear();
 		bear.name = request.body.name;
 
-		// Save the bear and check for errors.
-		// bear.save(function (err) {
-		// 	if (err) {
-		// 		console.log("Something went awry " + err.stack);
-		// 	} else {
-		// 		response.send(`Bear ${bear.name} Created`);
-		// 	}
-		// })
 		response.send(`Bear ${bear.name} created`);
 	})
 	.get(function (request, response) {
-		Bear.find(function (err, bears) {
-			if (err) {
-				response.send(err);
-			} else {
-				response.json(bears);
-			}
-		});
-
-		response.json({
-			"name": "Nikhil"
-		})
+		var bears = [];
+		bears.push(new Bear("Nikhil"));
+		bears.push(new Bear("Erica"));
+		response.json(bears);
 	});
 
 router.route("/bears/:bear_id")
 	.get(function (request, response) {
 		let bearId = request.params.bear_id;
+		let bear = new Bear("Nikhil");
 
-		// Bear.findById(bearId, function (err, bear) {
-		// 	if (err) {
-		// 		response.send(err);
-		// 	} else {
-		// 		response.json(bear);
-		// 	}
-		// });
-
-		response.json({
-			"id": bearId,
-			"name": "Nikhil"
-		});
+		response.json(bear);
 	})
 	.put(function (request, response) {
 		let bearName = request.body.name;
@@ -100,6 +71,7 @@ router.get('/', function (request, response, next) {
 
 // Mount the router to /api
 app.use('/api', router);
+app.use(express.static(__dirname + "/web"));
 
 // Listen to the port.
 var server = app.listen(port, function () {
